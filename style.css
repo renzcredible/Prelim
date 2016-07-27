@@ -1,0 +1,153 @@
+body {
+    background-image: url('img/blue.jpg');
+    background-attachment: fixed;
+    /*background-color: gray;*/
+    color: black;
+    font-size: 87.5%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    text-align: left;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: left;
+    letter-spacing: -2px;
+    width: 100%;
+}
+
+.punchline {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color:#C69C6D;
+    padding-left: 20px;
+    padding-top: -5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:active {
+    background-color: #FF8C00;
+    color: #FFF;
+}
+
+a:hover, a:active {
+    background-color: #FF8C00
+}
+
+.body {
+    
+   margin: 0 auto;
+   width: 70%;
+   clear: both;
+}
+
+.mainHeader img {
+    width: 100%;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 0px;
+}
+
+.mainHeader nav {
+    background-color: #2f4f4f;
+    height: 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.mainHeader nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainHeader nav ul li {
+    float: left;
+    display: inline;
+}
+
+
+#header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 780px;
+}
+
+#content {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#footer {
+    clear: both;
+    background-color: darkblue;
+    height: 50px;
+    color: black;
+}
+
+#logo {
+    height: 60px;
+    background-color: white;
+    padding-bottom: 12px;
+    margin-bottom: 5px;
+}
+
+#nav {
+    height: 40px;
+    background-color: orangered;
+    margin-bottom: 5px;
+   
+}
+
+#TopContent {
+    height: 200px;
+    width: 450px;
+    background-color:white;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#BottomContent {
+    height: 210px;
+    width: 450px;
+    background-color: white;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#TopSideBar {
+    height: 125px;
+    width: 323px;
+    background-color: white;
+    float: right;
+    margin-bottom: 5px;
+}
+
+#MiddleSideBar {
+    height: 150px;
+    width: 323px;
+    background-color: white;
+    float: right;
+    margin-bottom: 5px;
+    
+}
+
+#BottomSideBar {
+    height: 130px;
+    width: 323px;
+    background-color: white;
+    float: right;
+    margin-bottom: 5px;
+}

@@ -35,17 +35,15 @@ a {
     text-decoration: none;
 }
 
-a:link, a:active {
+a:link, a:visited {
     background-color: #FF8C00;
-    color: #FFF;
 }
 
 a:hover, a:active {
-    background-color: #FF8C00
+    color: #fff;
 }
 
 .body {
-    
    margin: 0 auto;
    width: 70%;
    clear: both;
@@ -78,76 +76,62 @@ a:hover, a:active {
     display: inline;
 }
 
-
-#header {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    width: 780px;
+.mainHeader nav a:link, .mainHeader nav a:visited {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 25px;
+    height: 20px;
 }
 
-#content {
-    margin-top: 0px;
-    padding-top: 0px;
+.mainHeader nav a:hover, .mainHeader nav a:active,
+.mainHeader nav .active a:link, .mainHeader nav .active a.visited {
+    background-color: #ff8c00;
+    text-shadow: none;
 }
 
-#footer {
-    clear: both;
-    background-color: darkblue;
-    height: 50px;
-    color: black;
+.mainHeader nav ul li a {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
-#logo {
-    height: 60px;
-    background-color: white;
-    padding-bottom: 12px;
-    margin-bottom: 5px;
+.mainContent {
+    line-height: 23px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
-#nav {
-    height: 40px;
-    background-color: orangered;
-    margin-bottom: 5px;
-   
-}
-
-#TopContent {
-    height: 200px;
-    width: 450px;
-    background-color:white;
+.content {
+    width: 70%;
     float: left;
-    margin-bottom: 5px;
 }
 
-#BottomContent {
-    height: 210px;
-    width: 450px;
-    background-color: white;
+.topcontent {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    /*margin-top: 2%;*/
+}
+
+.bottomcontent {
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 3% 5%;
+    margin-top: 2%;
+}
+
+.top-sidebar {
+    width: 23%;
     float: left;
-    margin-bottom: 5px;
-}
-
-#TopSideBar {
-    height: 125px;
-    width: 323px;
-    background-color: white;
-    float: right;
-    margin-bottom: 5px;
-}
-
-#MiddleSideBar {
-    height: 150px;
-    width: 323px;
-    background-color: white;
-    float: right;
-    margin-bottom: 5px;
-    
-}
-
-#BottomSideBar {
-    height: 130px;
-    width: 323px;
-    background-color: white;
-    float: right;
-    margin-bottom: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 0 0 1% 1%;
+    padding: 2% 3%;
 }
